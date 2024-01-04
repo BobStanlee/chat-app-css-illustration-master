@@ -27,3 +27,25 @@
     --font-size: 16px;
 }
 
+body {
+    width: 100%;
+    font-family: 'Rubik', sans-serif;
+    font-size: var(--font-size);
+    background-color: var(--Grayish-Blue);
+}
+
+main {
+    width: 100%;
+}
+
+.left-box-design {
+    width: 50%;
+    max-width: 187px;
+    background: var(--Light-Violet);
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-bottom-right-radius: 200px;
+}
